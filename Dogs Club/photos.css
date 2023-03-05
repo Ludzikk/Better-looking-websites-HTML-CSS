@@ -1,0 +1,85 @@
+body {
+  margin: 0px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background: white;
+}
+
+#photos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.home {
+  border: 2px solid black;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  background: rgb(255, 119, 0);
+}
+
+.notbold {
+    font-weight: normal;
+}
+
+#pictures {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+img {
+    padding: 10px;
+}
+
+#photo6 {
+    width: 300px;
+    object-fit: cover;
+}
+
+#photo7 {
+    width: 400px;
+    object-fit: cover;
+}
+
+#photo8 {
+    width: 250px;
+    object-fit: cover;
+}
+
+#photo9 {
+    width: 600px;
+    object-fit: cover;
+}
+
+#photo10 {
+    width: 450px;
+    object-fit: cover;
+}
+
+#photo11 {
+    width: 200px;
+    object-fit: cover;
+}
+
+#photo12 {
+    width: 350px;
+    object-fit: cover;
+}
+
+#photo13 {
+    width: 450px;
+    object-fit: cover;
+}
+
+#photo14 {
+    width: 600px;
+    object-fit: cover;
+}
+
+#photo15 {
+    width: 300px;
+    object-fit: cover;
+}
