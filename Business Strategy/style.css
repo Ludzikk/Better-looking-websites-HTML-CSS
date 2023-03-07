@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Golos Text", sans-serif;
+  color: black;
+  background: #e2e2e2;
+}
+
+#right img {
+  width: 800px;
+}
+
+#container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+#left {
+  padding-left: 200px;
+}
+
+#left h1 {
+  font-size: 74px;
+  letter-spacing: 4px;
+  padding: 15px 0;
+}
+
+#left p {
+  font-size: 18px;
+  padding-bottom: 15px;
+}
+
+#left button {
+  padding: 15px 30px;
+  border: 2px solid black;
+  transition: all, 0.3s;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+
+button:hover {
+    transform: scale(1.1);
+    background: rgb(250, 210, 137);
+    text-decoration: solid;
+}
